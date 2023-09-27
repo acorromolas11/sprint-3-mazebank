@@ -80,7 +80,7 @@ function Prestamos() {
                   <button className={""} type="button" onClick={cancelacion}>
                     Cancelar
                   </button>
-                  <button className={""} type="button" onClick={mostrarAviso}>
+                  <button className={""} type="submit" onClick={mostrarAviso}>
                     Continuar
                   </button>
                 </h3>
