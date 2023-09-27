@@ -1,0 +1,95 @@
+@media all and (max-width:1080px) {
+    .titulo
+    {
+        text-align: justify;
+        text-align: left;
+        margin-right: 50px;
+    }
+
+    .titulo h2{
+        text-align: center;
+    }
+
+    .menuTransacciones{
+        margin-left: 50px;
+    }
+
+    .remitente,.importes, .montoIngresar,.receptor,.metodo
+    {
+        display: flex;
+        border: solid red;
+        border-style: inset;
+        margin-right: 20%;
+    }
+
+    .remitente
+    {
+        justify-content: center;
+    }
+
+    .remitente ul {
+        list-style: none;
+    }
+
+    .importes
+    {
+       justify-content: space-around;
+    }
+
+    .montoIngresar input, .receptor input {
+        border: solid red;
+        border-style: inset;
+        height: fit-content;
+        width: fit-content;
+    }
+
+    .montoIngresar input{
+        margin-top: 0.5rem;
+    }
+
+    .montoIngresar h3{
+        margin-left: 1rem;
+        text-align: left;
+    }
+
+    .montoIngresar table{
+        border-collapse:collapse ;      
+    }
+
+    .montoIngresar th{
+        border: 1px solid red;
+    }
+
+    .monedas ul{
+        list-style: none;
+    }
+
+    .receptor input{
+        margin-top: 0.3rem;
+    }
+
+    .receptor{
+        justify-content: center;
+    }
+
+    .metodo{
+        justify-content: center;
+    }
+
+    .botonContinuar
+    {
+        margin-left :35%;
+    }
+
+    .botonContinuar button
+    {
+        color: white;
+        border:solid red ;
+        border-style: inset;
+        background-color: red;
+    }
+}
+
+@media all and (min-width:1080px) {
+    
+}

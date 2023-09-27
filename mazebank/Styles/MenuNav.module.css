@@ -1,0 +1,104 @@
+@media all and (min-width:80px) {
+    .menu img {
+        width: 10vw;
+    }
+
+    .menu
+    {
+        display: inline-block;
+    }
+
+    .contenedorEnlaces a {
+        display: block;
+        width: 100%;
+        margin-bottom: 0.25em;
+        margin-top: 0.25em;
+        text-decoration: none;
+        background-color: grey;
+        padding: 1em;
+        /*genera espacio a la vuelta, lo hace mas "tocable"*/
+        color: black;
+        font-size: 1.2rem;
+    }
+
+    .contenedorEnlaces ul{
+        list-style: none;
+    }
+
+    /*FIN MENU */
+}
+
+@media all and (min-width:1080px) {
+    .menu
+    {
+        display: inline-block;
+    }
+
+    .contenedorEnlaces a {
+        display: inline-block;
+        width: 100%;
+        margin-bottom: 0.25em;
+        margin-top: 0.25em;
+        text-decoration: none;
+        background-color: grey;
+        padding: 0.6em;
+        /*genera espacio a la vuelta, lo hace mas "tocable"*/
+        color: black;
+        font-size: 1.9rem;
+    }
+
+
+    .contenedorEnlaces {
+        display: flex;
+        flex-direction: column;
+        min-width: 330px;
+        max-width: 330px;
+        min-height: 100vh;
+        
+        font-family: 'Inconsolata', monospace;
+    }
+
+    .contenedorEnlaces ul {
+        list-style: none;
+        padding-left: 0px;
+    }
+    
+    
+    .contenedorEnlaces li {
+        min-width: 100%;
+        margin-top: 1%;
+        list-style: none;
+        display: flex;
+    }
+
+    .contenedorEnlaces a{
+        transition: 0.8s;
+    }
+
+    .contenedorEnlaces .transf a:hover {
+        font-size: 2.4rem;
+        transition: 0.8s;
+    }
+
+    .contenedorEnlaces .inicio a:hover {
+        font-size: 2.6rem;
+        transition: 0.8s;
+    }
+
+    .contenedorEnlaces .cuentas a:hover {
+        font-size: 2.6rem;
+        transition: 0.8s;
+    }
+
+    .contenedorEnlaces .pagos a:hover {
+        font-size: 2.6rem;
+        transition: 0.8s;
+
+    }
+
+    .contenedorEnlaces .prestamos a:hover {
+        font-size: 2.6rem;
+        transition: 0.8s;
+    }
+
+}

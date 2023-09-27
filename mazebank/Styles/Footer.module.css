@@ -1,0 +1,265 @@
+@media all and (min-width: 390px){
+    .footer {
+        min-width: 100vw;
+        display: flex;
+        max-width: 100vw;
+        flex-direction: row;
+        border-top: red solid;
+    }
+    
+    .cond {
+        width: 33%;
+        display: flex;
+        justify-content: start;
+    }
+    
+    .cond ul {
+        display: flex;
+        flex-direction: column;
+        padding: 1em;
+    
+    }
+    
+    .cond ul li {
+        list-style: none;
+        margin: 3px;
+    }
+    
+    .cond ul li a {
+        text-decoration: none;
+        color: black;
+    }
+    
+    .logo {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        width: 33%;
+    }
+    
+    .logo img {
+        width: 100%;
+    
+    }
+    
+    .logo figure {
+        width: 6vw;
+        margin-bottom: -16px;
+    }
+    
+    .logo h1 {
+        font-size: 30px;
+    }
+    
+    .redes {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 1em;
+        width: 33%;
+    
+    }
+    
+    .redes ul {
+        display: flex;
+        flex-direction: row;
+    
+    }
+    
+    .redes ul li {
+        margin: 1em;
+        list-style: none;
+    }
+    
+    .redes ul li img {
+        width: 3vh;
+    
+    }
+    
+    .redes h4 {
+        font-size: 25px;
+    }
+    
+    /*FIN fOOTER */
+    
+}
+
+    /*COMIENZO FOOTER*/
+    .footer {
+        display: flex;
+        flex-direction: row;
+        background-color: #dedfe0;
+    }
+
+    .cond {
+        width: 33%;
+        display: flex;
+        justify-content: start;
+    }
+
+    .cond ul {
+        display: flex;
+        flex-direction: column;
+        padding: 1em;
+
+    }
+
+    .cond ul li {
+        list-style: none;
+        margin: 3px;
+    }
+
+    .cond ul li a {
+        text-decoration: none;
+        color: black;
+        font-size: 20px;
+    }
+
+    .logo {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        width: 33%;
+    }
+
+    .logo img {
+        width: 100%;
+
+    }
+
+    .logo figure {
+        width: 60px;
+
+    }
+
+    .logo h1 {
+        font-size: 20px;
+    }
+
+    .redes {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 1em;
+        width: 33%;
+
+    }
+
+    .redes ul {
+        display: flex;
+        flex-direction: row;
+        margin-top: 0.5em;
+
+    }
+
+    .redes ul li {
+        margin: 0.5em;
+        list-style: none;
+
+    }
+
+    .redes ul li img {
+        width: 3vh;
+
+    }
+
+    .redes h4 {
+        font-size: 25px;
+    }
+
+@media all and (max-width: 390px){
+    /*COMIENZO FOOTER*/
+    .footer {
+        display: flex;
+        position: relative;
+        bottom: 0;
+        flex-direction: row;
+        background-color: #dedfe0;
+        margin-bottom: 0;
+    }
+
+    .cond {
+        width: 33%;
+        display: flex;
+        justify-content: start;
+    }
+
+    .cond ul {
+        display: flex;
+        flex-direction: column;
+        padding: 1em;
+
+    }
+
+    .cond ul li {
+        list-style: none;
+        margin: 3px;
+    }
+
+    .cond ul li a {
+        text-decoration: none;
+        color: black;
+        font-size: 20px;
+    }
+
+    .logo {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        width: 33%;
+    }
+
+    .logo img {
+        width: 100%;
+
+    }
+
+    .logo figure {
+        width: 60px;
+
+    }
+
+    .logo h1 {
+        text-align: center;
+        font-size: 20px;
+    }
+
+    .redes {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 1em;
+        width: 33%;
+
+    }
+
+    .redes ul {
+        display: flex;
+        flex-direction: row;
+        margin-top: 0.5em;
+
+    }
+
+    .redes ul li {
+        margin: 0.5em;
+        list-style: none;
+
+    }
+
+    .redes ul li img {
+        width: 3vh;
+
+    }
+
+    .redes h4 {
+        font-size: 25px;
+    }
+
+    /*FIN fOOTER */
+}

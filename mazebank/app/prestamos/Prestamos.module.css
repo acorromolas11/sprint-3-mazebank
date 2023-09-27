@@ -1,0 +1,83 @@
+@media all and (min-width:1080px) {
+    .cuerpo {
+        display: flex;
+        flex-direction: column;
+        position: relative;
+    }
+     
+    .h2
+    {
+        
+        color: black;
+        font-family: 'Rubik', sans-serif;;
+    }
+ 
+    .titulo{
+        text-align: center;
+        font-size: 20px;
+        padding-bottom: 0%;
+        margin-top: 3%;
+        font-family: 'Rubik', sans-serif;
+    }
+    
+
+    .tituloPrestamo {
+        color: white;
+        background-color: #fc1717e2;
+        text-align: center;
+        display: block;
+        font-size: 50px;
+        margin-left: 6px;
+        margin-top: 0px;
+        padding: 2%;
+        text-shadow: 1px 2px 5px rgb(166, 17, 12);
+
+    }
+
+    .Personal
+    {
+        margin-left: 150px;
+        
+    }
+
+    .Emprendimiento
+    {
+        margin-left: 65px;
+    }
+
+    .Capital
+    {
+        margin-left: 52px;
+    }
+
+    .p
+    {
+        margin-top: 1%;
+        margin-bottom: 0%;
+        padding-left: 5%;
+        margin-right: 5%;
+        font-size: medium;
+    }
+
+    .cuerpo button  {
+        background-color: white;
+        width: 175px;
+        height: 40px;
+        border: red;
+        border-radius: 10px;
+        margin-top: 25px;
+        font-family: 'Rubik', sans-serif;
+        box-shadow: 4px 3px 6px rgba(0, 0, 0, 0.719);
+    }
+
+    .button:hover{
+        color: white;
+        background-color: red;
+    }
+
+    .confirmacion
+    {
+        margin-top: 50px;
+        color:black;
+    }
+}
