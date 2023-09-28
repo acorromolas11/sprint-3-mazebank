@@ -25,7 +25,7 @@ function Prestamos() {
 
   return (
     <>
-      <div>
+      <div className={styles.main}>
         <section className={styles.cuerpo}>
           <div>
             <h2 className={styles.tituloPrestamo}>Nuevo préstamo</h2>

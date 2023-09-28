@@ -42,9 +42,9 @@ function Transferencias() {
 
   return (
     <>
-      <div>
+      <div className={styles.main}>
         <form className={styles.menuTransacciones}>
-          <div classname={styles.titulo}>
+          <div className={styles.titulo}>
             <h2>TRANSFERENCIAS</h2>
             <br />
             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex at
@@ -59,7 +59,7 @@ function Transferencias() {
             optio quis dolore id libero vitae quae, nulla nemo neque tempore?
           </div>
           <br />
-          <div classname={styles.remitente}>
+          <div className={styles.remitente}>
             <ul>
               <li>De BN $ 123456/5464/0</li>
 
@@ -73,17 +73,17 @@ function Transferencias() {
             </ul>
           </div>
           <br />
-          <div classname={styles.importes}>
-            <div classname={styles.elegirMoneda}>
+          <div className={styles.importes}>
+            <div className={styles.elegirMoneda}>
               <label className={""}> Importe en </label>
-              <select name="" classname={styles.Importes} onChange={(e)=>{setMoneda(e.target.value)}}>
+              <select name="" className={styles.Importes} onChange={(e)=>{setMoneda(e.target.value)}}>
                 <option value="-">-</option>
                 <option value="Pesos">Pesos</option>
                 <option value="Dolares">Dolares</option>
                 <option value="Euro">Euros</option>
               </select>
             </div>
-            <div classname={styles.monedas}>
+            <div className={styles.monedas}>
                 <h3>Las monedas actuales son: </h3>
                 <ul>
                   <li>Euro: {rates["EUR"]}</li>
@@ -94,37 +94,37 @@ function Transferencias() {
           </div>
           <br />
           <br />
-          <div classname={styles.montoIngresar}>
+          <div className={styles.montoIngresar}>
             <label className={""}>Monto a ingresar </label> <br />
             <input 
             type="number" 
             name="monto" 
-            classname={styles.monto} 
-            className={""} 
+            className={styles.monto}
             onChange={(e)=>setUserInput(e.target.value)}/>
-
+          </div>
+          <div className={styles.conversionMonto}>
             <h3>Converción del monto:</h3>
-            <table style={{borderCollapse:"separate"}}>
-              <tr>
-                <th>Moneda</th>
-                <th>Monto</th>
-              </tr>
-              <tr>
-                <th>{moneda}</th>
-                <th>{monto}</th>
-              </tr>
-            </table>
+              <table style={{borderCollapse:"separate"}}>
+                <tr>
+                  <th>Moneda</th>
+                  <th>Monto</th>
+                </tr>
+                <tr>
+                  <th>{moneda}</th>
+                  <th>{monto}</th>
+                </tr>
+              </table>
           </div>
           <br />
           <br />
-          <div classname={styles.receptor}>
+          <div className={styles.receptor}>
             <label className={""}>Para </label>
             <input type="text" className={""} />
           </div>
           <br />
           <br />
 
-          <div classname={styles.metodo}>
+          <div className={styles.metodo}>
             <label className={""}>Concepto</label>
             <select name="" className={""}>
               <option value="-">-</option>
@@ -138,8 +138,8 @@ function Transferencias() {
           </div>
           <br />
           <br />
-          <div classname={styles.botonContinuar}>
-            <button type="button" classname={styles.continuar} onClick={realizar}>
+          <div className={styles.botonContinuar}>
+            <button type="button" className={styles.continuar} onClick={realizar}>
               Continuar
             </button>
           </div>

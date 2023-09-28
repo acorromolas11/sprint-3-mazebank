@@ -1,4 +1,10 @@
-@media all and (max-width:1080px) {
+@media (max-width:700px) {
+    .main{
+        margin-right: 0;
+        margin-left: 0;
+        background-color: lightcoral;
+    }
+
     .titulo
     {
         text-align: justify;
@@ -11,15 +17,18 @@
     }
 
     .menuTransacciones{
-        margin-left: 50px;
+        margin-left: 1rem;
+        margin-right: 0rem;
     }
 
-    .remitente,.importes, .montoIngresar,.receptor,.metodo
+    .remitente,.importes, .montoIngresar,.receptor,.metodo,.conversionMonto
     {
         display: flex;
         border: solid red;
         border-style: inset;
-        margin-right: 20%;
+        margin-left: 0;
+        margin-right: 0;
+        background-color: coral;
     }
 
     .remitente
@@ -59,6 +68,18 @@
     .montoIngresar th{
         border: 1px solid red;
     }
+    
+    .conversionMonto{
+        margin-top: 2rem;
+    }
+
+    .monedas{
+        border-left: solid red;
+    }
+
+    .monedas h3{
+        margin-left: 1rem;
+    }
 
     .monedas ul{
         list-style: none;
@@ -90,6 +111,111 @@
     }
 }
 
-@media all and (min-width:1080px) {
-    
+.main{
+    margin-right: 0;
+    margin-left: 0;
+    background-color: lightcoral;
+}
+
+.titulo
+{
+    text-align: justify;
+    text-align: left;
+    margin-right: 50px;
+}
+
+.titulo h2{
+    text-align: center;
+}
+
+.menuTransacciones{
+    margin-left: 10%;
+}
+
+.remitente,.importes, .montoIngresar,.receptor,.metodo,.conversionMonto
+{
+    display: flex;
+    border: solid red;
+    border-style: inset;
+    margin-right: 20%;
+    background-color: coral;
+}
+
+.remitente
+{
+    justify-content: center;
+}
+
+.remitente ul {
+    list-style: none;
+}
+
+.importes
+{
+   justify-content: space-around;
+}
+
+.montoIngresar input, .receptor input {
+    border: solid red;
+    border-style: inset;
+    height: fit-content;
+    width: fit-content;
+}
+
+.montoIngresar input{
+    margin-top: 0.5rem;
+}
+
+.montoIngresar h3{
+    margin-left: 1rem;
+    text-align: left;
+}
+
+.montoIngresar table{
+    border-collapse:collapse ;      
+}
+
+.montoIngresar th{
+    border: 1px solid red;
+}
+
+.conversionMonto{
+    margin-top: 2rem;
+}
+
+.monedas{
+    border-left: solid red;
+}
+
+.monedas h3{
+    margin-left: 1rem;
+}
+
+.monedas ul{
+    list-style: none;
+}
+
+.receptor input{
+    margin-top: 0.3rem;
+}
+
+.receptor{
+    justify-content: center;
+}
+
+.metodo{
+    justify-content: center;
+}
+
+.botonContinuar
+{
+    margin-left :35%;
+}
+
+.botonContinuar button
+{
+    color: white;
+    border:solid red ;
+    border-style: inset;
+    background-color: red;
 }

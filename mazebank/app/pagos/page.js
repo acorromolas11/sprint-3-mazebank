@@ -6,9 +6,9 @@ function Pagos() {
       <main className={styles.main}>
         <section className={styles.cont}>
           <div className={styles.montoActual}>
-            <p>Monto actual $AR: 9999,99</p>
-            <p>Monto actual $US: 9,99</p>
-            <p>Monto actual $EU: 8,99</p>
+            <h1>Monto actual $AR: 9999,99</h1>
+            <h1>Monto actual $US: 9,99</h1>
+            <h1>Monto actual $EU: 8,99</h1>
           </div>
           <div></div>
           <div className={styles.container}>

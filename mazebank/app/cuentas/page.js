@@ -16,9 +16,9 @@ function Cuentas() {
   };
 
   return (
-      <main>
+      <main className={styles.main}>
         <section className={styles.cuentasContainer}>
-          <div className={styles.cuenta1}>
+          <div className={styles.cuentas}>
             <h1>BN $ 123456/5464/0</h1>
 
             <p>$0</p>
@@ -27,7 +27,7 @@ function Cuentas() {
             <button onClick={verAlias1}>Ver Alias/CBU/CVU</button>
 
             <br />
-            <button className="movimientos" /*onClick*/>Ver movimientos</button>
+            <button className={styles.movimientos} /*onClick*/>Ver movimientos</button>
             <select name="" className="">
               <option className="op1" value="">
                 Del día
@@ -38,7 +38,7 @@ function Cuentas() {
             </select>
           </div>
 
-          <div className={styles.cuenta2}>
+          <div className={styles.cuentas}>
             <h1>BN $ 123456/5464/0</h1>
 
             <p>$0</p>
@@ -56,7 +56,7 @@ function Cuentas() {
             </select>
           </div>
 
-          <div className={styles.cuentausd}>
+          <div className={styles.cuentas}>
             <h1>BN $ 123456/5464/0</h1>
 
             <p>$USD 0</p>

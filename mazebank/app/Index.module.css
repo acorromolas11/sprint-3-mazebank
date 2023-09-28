@@ -2,7 +2,7 @@
     .mainContainer {
         display: flex;
         flex-direction: column;
-        background-color: white;
+        background-color: rgb(253, 228, 228);
     }
 
     .mainContainer h2 {
@@ -116,6 +116,10 @@
 }
 
 @media all and (min-width:1080px) {
+    .mainContainer{
+        background-color: bisque;
+    }
+    
     .main {
         display: flex;
         flex-direction: column;
