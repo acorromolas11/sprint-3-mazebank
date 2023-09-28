@@ -3,7 +3,6 @@
         display: flex;
         flex-direction: column;
         background-color: white;
-        border-left: solid red;
     }
 
     .mainContainer h2 {
@@ -40,13 +39,8 @@
         font-size: 1.2em;
     }
 
-    .nave {
-        position: absolute;
-        width: 100%;
-        top: 50px !important;
-    }
-
     .nave ul {
+        margin-right: 2rem;
         display: flex;
         flex-direction: row;
         justify-content: space-evenly;
@@ -71,6 +65,7 @@
     .divManejaTuCuenta {
         height: 800px;
         max-width: 700px;
+        text-align: center;
     }
 
     .cardHeader{
@@ -88,6 +83,8 @@
         text-align: center;
         border: black solid;
         border-radius: 1em;
+        margin-left: 2rem;
+        margin-right: 2rem;
     }
 
     .formulario form label {

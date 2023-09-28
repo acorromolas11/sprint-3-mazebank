@@ -13,10 +13,10 @@ function Layout({children}) {
         <body>
             <Header />  
             <div className={styles.main}>
-                <div style={{display:"inline-block"}} onClick={()=>setMostrarMenu(!mostrarMenu)}>
+                <div className={styles.mostrarMenu}>
                     {mostrarMenu?
-                    <img  className={styles.abrir} src="/images/cerrar_menu.png"/> :
-                    <img  className={styles.cerrar} src="/images/burger_menu.png"/>
+                    <img  className={styles.abrir} src="/images/cerrar_menu.png" onClick={()=>setMostrarMenu(!mostrarMenu)} />:
+                    <img  className={styles.cerrar} src="/images/burger_menu.png" onClick={()=>setMostrarMenu(!mostrarMenu)}/>
                     }
                     {mostrarMenu && <MenuNav />}
                     

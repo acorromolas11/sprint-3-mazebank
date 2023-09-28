@@ -6,7 +6,7 @@ function Index() {
     <>
       <main className={styles.mainContainer}>
         <h2>Quienes Somos</h2>
-        <section className={styles.info}>
+        <div className={styles.info}>
           <p>
             Somos <strong>Maze Bank</strong> un banco intenacional. Contamos con
             128 años antiguedad con clientes de todo el mundo. Te ofrecemos con
@@ -18,25 +18,25 @@ function Index() {
           <p>
             Lema de <strong>Maze bank</strong>: <em>"Invertí desde tu casa"</em>{" "}
           </p>
-        </section>
+        </div>
         <div className={styles.divManejaTuCuenta}>
           <section className={styles.nave}>
             <h2 className={styles.cardHeader}>Maneja tu cuenta</h2>
-            <ul className="card-body">
-              <li className="botonManejaCuenta card-title">
+            <ul className={styles.cardBody}>
+              <li className={styles.botonManejaCuenta}>
                 <Link href="/prestamos">Solicita Prestamos</Link>
               </li>
-              <li className="botonManejaCuenta card-title">
+              <li className={styles.botonManejaCuenta}>
                 <Link href="/pagos">Ultimos Pagos</Link>
               </li>
-              <li className="botonManejaCuenta card-title">
+              <li className={styles.botonManejaCuenta}>
                 <Link href="/transferencias">Mira tus tranferencias</Link>
               </li>
             </ul>
           </section>
 
           <section className={styles.formulario}>
-            <form action="" method="post" className="formSolicitarTarjeta">
+            <form action="" method="post" className={styles.formSolicitarTarjeta}>
               <legend>Solicita tu tarjeta</legend>
 
               <label htmlFor="ape">

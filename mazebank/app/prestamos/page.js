@@ -1,6 +1,6 @@
 "use client"
 
-import styles from "./Prestamos.module.css";
+import styles from "./Prestamos.module.css"
 import { useEffect, useState } from "react";
 
 function Prestamos() {
