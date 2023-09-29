@@ -1,8 +1,36 @@
 "use client"
-import styles from "./Transferencias.module.css";
-import { useState, useEffect } from "react";
 
-function Transferencias() {
+import styles from "./Transferencias.module.css"
+import { useState, useEffect } from "react";
+import Head from "next/head";
+
+// export async function getStaticPaths() {
+//   return {
+//     paths: [
+//       {
+//         params: {
+//           name: 'next.js',
+//         },
+//       }, // See the "paths" section below
+//     ],
+//     fallback: true, // false or "blocking"
+//   }
+// }
+
+// export async function getServerSideProps() {
+//   const res = await fetch('https://open.er-api.com/v6/latest/USD')
+//   const ratio = await res.json()
+//   return { props: { ratio } }
+// }
+
+// export async function getStaticProps() {
+//   const res = await fetch('https://rickandmortyapi.com/api/character')
+//   const cuentas = await res.json()
+//   return { props: { cuentas } }
+// }
+
+
+function Transferencias({cuentas,ratio}) {
   const [userInput,setUserInput] = useState(0);
   const [moneda, setMoneda] = useState(null);
   const [saldoActual,setSaldoActual] = useState(1000);
@@ -42,6 +70,9 @@ function Transferencias() {
 
   return (
     <>
+      <Head>
+        <title>Transferencias</title>
+      </Head>
       <div className={styles.main}>
         <form className={styles.menuTransacciones}>
           <div className={styles.titulo}>

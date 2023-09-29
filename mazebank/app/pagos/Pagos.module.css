@@ -1,6 +1,6 @@
 @media all {
     .main {
-        background: #e9e4e4;
+        background-color: lightsalmon;
         width: 100%;
         margin-right: 0;
     }
@@ -8,7 +8,7 @@
     .cont {
         height: 100vh;
         float: right;
-        margin-left: 4rem;
+        margin: 0vw 10vw 0vw 0vw;
     }
     
     .montoActual h1{
@@ -46,13 +46,13 @@
 }
 
 .main {
-    background: #e9e4e4;
+    background-color: lightsalmon;
 }
 
 .cont {
     height: 100vh;
     float: right;
-    margin: 0vw 10vw 0vw 0vw;
+    margin: 0vw 30vw 0vw 0vw;
 }
 
 .montoActual {

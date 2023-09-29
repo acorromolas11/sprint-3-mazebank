@@ -1,5 +1,7 @@
+import Layout from "@/Componentes/Layout"
+
 export const metadata = {
-  title:"Maze Bank",
+  title:"Inicio",
   icons: {
     icon:[
       "/favicon.ico?v1"
@@ -17,7 +19,9 @@ export const metadata = {
 export default function RootLayout({ children }) {
  return (
     <html lang="en">
-      {children}
+      <Layout>
+        {children}
+      </Layout>
     </html>
   )
 }

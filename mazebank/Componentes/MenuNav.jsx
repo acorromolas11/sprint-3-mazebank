@@ -8,7 +8,7 @@ function MenuNav() {
         <nav className={styles.contenedorEnlaces}>
           <ul>
             <li className={styles.inicio}>
-              <Link href="/">INICIO</Link>
+              <Link href="/inicio">INICIO</Link>
             </li>
             <li className={styles.cuentas}>
               <Link href="/cuentas">CUENTAS</Link>

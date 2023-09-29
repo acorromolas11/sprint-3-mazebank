@@ -2,9 +2,9 @@
 
 import Header from "./Header";
 import MenuNav from "./MenuNav";
-import Footer from "./Footer";
 import styles from "../styles/Layout.module.css"
 import { useEffect, useState } from "react";
+import Footer from "./Footer";
 
 function Layout({children}) {
     const [mostrarMenu,setMostrarMenu] = useState(false);
@@ -23,7 +23,7 @@ function Layout({children}) {
                 </div>  
                 {children} 
             </div>
-            <Footer />
+            <Footer/>
         </body>
     );
 }

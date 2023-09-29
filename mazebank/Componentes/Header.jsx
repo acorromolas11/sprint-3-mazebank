@@ -11,7 +11,7 @@ function Header() {
         </figure>
         <h1>Maze Bank</h1>
       </div>
-      <Link href="/login"><button className={styles.boton}>Cerrar sesión</button></Link>
+      <Link href="/"><button className={styles.boton}>Cerrar sesión</button></Link>
       </header>
   );
 }
