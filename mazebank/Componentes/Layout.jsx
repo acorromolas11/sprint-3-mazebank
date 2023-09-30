@@ -3,7 +3,7 @@
 import Header from "./Header";
 import MenuNav from "./MenuNav";
 import styles from "../styles/Layout.module.css";
-import { useEffect, useState } from "react";
+import { useState } from "react";
 import Footer from "./Footer";
 
 function Layout({ children }) {

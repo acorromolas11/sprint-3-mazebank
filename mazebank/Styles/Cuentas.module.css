@@ -12,6 +12,15 @@
         border: solid red;
         margin: 10rem 0 10rem 0;
     }
+
+    .main input{
+        background-color: lightblue;
+    }
+
+    .main ul{
+        list-style: disc;
+        border-radius: 10px;
+    }
 }
 
 .main{
@@ -25,4 +34,13 @@
 .cuentas{
     border: solid red;
     margin: 2rem 0 2rem 0;
+}
+
+.main input{
+    background-color: lightblue;
+    border-radius: 10px;
+}
+
+.main ul{
+    list-style:disc;
 }
