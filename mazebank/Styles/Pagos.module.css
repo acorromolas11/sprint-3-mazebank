@@ -1,0 +1,42 @@
+@media all {
+    .main {
+        background-color: lightsalmon;
+        width: 100%;
+        margin-right: 0;
+    }
+    
+    .main h2 {
+        display: block;
+        font-size: 2vw;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        color: rgb(97, 97, 97);
+    }
+    .contenedorGeneral{
+        border-radius: 10px;
+        width: fit-content;
+        background-color: wheat;
+        display: flex;
+    }
+
+    .contenedorNombres{
+        display: flex;
+    }
+
+    .contenedorPrecios{
+        display: flex;
+    }
+
+    .contenedorPrecios ul{
+        list-style: none;
+    }
+}
+
+.main {
+    background-color: lightsalmon;
+}
+
+.main h2 {
+    font-size: 2vw;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(97, 97, 97);
+}
