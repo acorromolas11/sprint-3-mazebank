@@ -1,3 +1,4 @@
+//Página de préstamos
 import Layout from "@/Componentes/Layout";
 import LPrestamos from "@/Componentes/Logicas/LPrestamos";
 

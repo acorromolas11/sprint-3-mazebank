@@ -1,22 +1,29 @@
+//Componente "Lógico" (operaciones realizadas en el cliente) de Prestamos
 "use client"
 
 import { useEffect, useState } from "react";
 import styles from "../../Styles/Prestamos.module.css"
 
 function LPrestamos() {
+  //variables de estado
     const [prestamo, setPrestamo] = useState(false);
     const [tipoPrestamo, setTipoPrestamo] = useState(null);
   
-  
+  //setea el valor de prestamos a false cada vez que se cambia el valor de tipoPrestamo
+  //principalmente sirve para sacar el puntito al elegir otra opción
     useEffect(()=>{
       setPrestamo(false)
     },[tipoPrestamo])
-  
+
+    //Alerta al realizar el prestamo
     function mostrarAviso() {
        
       setPrestamo(window.confirm("Esta seguro que desea realizar el prestamo?"))
       
     }
+
+    //Al apretar el boton cancelar las variables prestamo y tipoPrestamo se vuelven falsas y null,
+    //lo que hace que ninguna opción esté marcada
   
     function cancelacion() {
       setPrestamo(false)

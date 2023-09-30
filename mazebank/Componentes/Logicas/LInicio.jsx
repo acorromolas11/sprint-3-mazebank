@@ -1,7 +1,11 @@
+//Componente "Lógico" de inicio en este caso no se corre en el cliente
 import Link from "next/link";
 import styles from "../../Styles/Index.module.css"
 
 function LInicio() {
+
+  //Creo una página de inicio básica, con informacion y con links hacia: prestamos, transferencias y pagos
+  
     return (
         <main className={styles.mainContainer}>
         <h2>Quienes Somos</h2>

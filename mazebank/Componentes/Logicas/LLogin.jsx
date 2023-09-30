@@ -1,9 +1,14 @@
+//Componente "Lógico" (operaciones realizadas en el cliente) de Login
 "use client";
 
 import { useState } from "react";
 import styles from "../../Styles/Login.module.css"
 
 function LLogin() {
+  //confirma que el valor ingresado por el usuario y su contraseña sean correctos y de serlo se dirige al inicio mediante
+  //window.location
+  //Ademas, la variable de estado incorrecto determina si el valor ingreado por el usuario es incorrecto y de serlo
+  //muestra un mensaje que dice contraseña incorrecta
     function loginConfirmation() {
         if (user === "A" && password === "123456789") {
           setIncorrecto(false);
@@ -12,6 +17,8 @@ function LLogin() {
           setIncorrecto(true);
         }
       }
+
+    //variables de estado
 
     const [user, setUser] = useState("");
     const [password, setPassword] = useState("");

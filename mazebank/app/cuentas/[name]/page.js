@@ -1,7 +1,8 @@
+//página de Cuentas personales
 import Layout from "@/Componentes/Layout";
 import LCuentaPersonal from "@/Componentes/Logicas/LCuentaPersonal";
 import { getCuentas } from "../page";
-import { useParams } from "next/navigation";
+
 
 export const metadata = {
     title: "Cuenta Personal",

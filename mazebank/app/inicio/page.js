@@ -1,3 +1,4 @@
+//Página de inicio
 import Layout from "@/Componentes/Layout";
 import LInicio from "@/Componentes/Logicas/LInicio";
 

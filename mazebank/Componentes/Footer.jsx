@@ -1,5 +1,8 @@
+//Componente Footer
 import Link from "next/link";
 import styles from "../Styles/Footer.module.css";
+
+//Componente del footer del banco
 
 function Footer() {
   return (

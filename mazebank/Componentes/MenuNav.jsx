@@ -1,5 +1,8 @@
+//Componente de MenuNav
 import Link from "next/link";
 import styles from "../Styles/MenuNav.module.css";
+
+//Es un componente del menu de navegación que contiene los contenidos del menu de navegación de la página
 
 function MenuNav() {
   return (

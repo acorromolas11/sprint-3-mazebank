@@ -1,3 +1,4 @@
+//Página de pagos
 import Layout from "@/Componentes/Layout";
 import LPagos from "@/Componentes/Logicas/LPagos"
 

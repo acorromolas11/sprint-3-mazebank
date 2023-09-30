@@ -1,14 +1,21 @@
+//Componente "Lógico" (operaciones realizadas en el cliente) de Transferencias
 "use client"
 
 import styles from "../../Styles/Transferencias.module.css";
 import { useState, useEffect } from "react";
 
 function LTransferencias({rates}) {
+    //Variables de estado
     const [userInput, setUserInput] = useState(0);
     const [moneda, setMoneda] = useState(null);
     const [saldoActual, setSaldoActual] = useState(1000);
     const [monto, setMonto] = useState(0);
   
+    //cada vez que se cambie el tipo de moneda y el usuario ingrese un valor nuevo,
+    //se multiplica el valor ingresado por el usuario por el ratio obtenido de la api
+    //el valor obtenido de la api es pasado como prop de la página de transferencias y en la misma
+    //se realiza un getServersideProps
+
     useEffect(() => {
       if (moneda == null) {
         setMonto(0);
@@ -21,7 +28,9 @@ function LTransferencias({rates}) {
         setMonto(userInput * rates["EUR"] * rates["ARS"]);
       }
     }, [moneda, userInput]);
-  
+
+    //Cuando se clickea el boton continuar, se realiza la función realizar la cual valida que el monto sea válido
+    //y actualiza el saldo actual
     function realizar() {
       monto > 0 && monto < saldoActual
         ? setSaldoActual(saldoActual - monto)

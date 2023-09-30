@@ -1,3 +1,4 @@
+//Componente del header
 import Link from "next/link";
 import React from "react";
 import styles from "../Styles/Header.module.css";
